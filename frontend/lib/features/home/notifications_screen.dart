@@ -13,7 +13,7 @@ class NotificationsPage extends StatelessWidget {
         itemBuilder: (context, index) {
           return ExpansionTile(
             title: Text('Notificación ${index + 1}'),
-            subtitle: Text('12/05/2025 10:0${index} AM'),
+            subtitle: Text("12/05/2025 10:0${index} AM"),
             leading: const Icon(Icons.info_outline),
             children: [
               Padding(
